@@ -1,10 +1,4 @@
-﻿<!DOCTYPE html>
-<html lang="en">
-
-
-
-
-
+<!DOCTYPE html><html lang="en"><head> 
 
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -14,286 +8,239 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-NZ5R7F25');</script>
 <!-- End Google Tag Manager -->
 
-	
-<head>
-    <meta charset="utf-8">
-    <title>شركة امان لنقل العفش إتصل على 01023966940 - </title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
-
-    <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
-
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-
-    <link href="css2?family=Open+Sans:wght@400;600&family=Cairo:wght@700;900&display=swap" rel="stylesheet">
-
-
-    <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-
-    <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
-
-    <!-- Offer Banner Styles -->
+   <meta charset="utf-8">    <title>شركة أمان لنقل العفش إتصل على 01004582948 - 01118350997</title>    <meta content="width=device-width, initial-scale=1.0" name="viewport">    <meta content="" name="keywords">    <meta content="" name="description">    <!-- Favicon -->    <link href="img/favicon.ico" rel="icon">    <!-- Google Web Fonts -->    <link rel="preconnect" href="https://fonts.googleapis.com">    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Cairo:wght@700;900&display=swap" rel="stylesheet">    <!-- Icon Font Stylesheet -->    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">    <!-- Libraries Stylesheet -->    <link href="lib/animate/animate.min.css" rel="stylesheet">    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">    <!-- Customized Bootstrap Stylesheet -->    <link href="css/bootstrap.min.css" rel="stylesheet">    <!-- Template Stylesheet -->    <link href="css/style.css" rel="stylesheet">
+    
     <style>
-        .offer-banner {
+        /* Floating Call Button Styles */
+        .floating-call-btn {
             position: fixed;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            background-color: #c82333; /* A strong red for attention */
+            bottom: 20px;
+            left: 20px;
+            z-index: 9999;
+            background-color: #25d366;
             color: white;
+            width: 65px;
+            height: 65px;
+            border-radius: 50%;
             text-align: center;
-            padding: 15px 0;
-            z-index: 1050; /* High z-index to appear above other elements */
-            font-family: 'Cairo', sans-serif;
-            font-size: 1.1rem;
-            font-weight: 600;
-            box-shadow: 0 -4px 8px rgba(0,0,0,0.15);
-            transform: translateY(100%);
-            transition: transform 0.4s ease-out;
-            display: none; /* Hidden by default, shown with JS */
-        }
-        .offer-banner.show {
-            transform: translateY(0);
-        }
-        .offer-banner p {
-            margin: 0;
-            padding: 0 40px 0 15px; /* Right padding to avoid text under the close button */
-        }
-        .offer-banner a {
-            color: #fff;
-            text-decoration: underline;
-            font-weight: 700;
-        }
-        .offer-banner-close {
-            position: absolute;
-            top: 50%;
-            right: 15px;
-            transform: translateY(-50%);
-            background: transparent;
-            border: none;
-            color: white;
-            font-size: 28px;
-            line-height: 1;
+            line-height: 65px;
+            box-shadow: 0px 4px 15px rgba(0,0,0,0.4);
             cursor: pointer;
-            padding: 5px;
+            font-size: 28px;
+            transition: all 0.3s ease;
+            animation: pulse-green 2s infinite;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
-        #countdown {
-            font-weight: 700;
-            background-color: rgba(255,255,255,0.2);
-            padding: 2px 8px;
-            border-radius: 4px;
+
+        .floating-call-btn:hover {
+            background-color: #128c7e;
+            color: white;
+            transform: scale(1.1);
+        }
+
+        @keyframes pulse-green {
+            0% {
+                transform: scale(0.95);
+                box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7);
+            }
+            70% {
+                transform: scale(1);
+                box-shadow: 0 0 0 15px rgba(37, 211, 102, 0);
+            }
+            100% {
+                transform: scale(0.95);
+                box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+            }
+        }
+
+        /* Modal Styles */
+        .step-content {
+            display: none;
+            text-align: center;
+            animation: fadeIn 0.5s;
+        }
+        .step-content.active {
+            display: block;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .step-icon-circle {
+            width: 80px;
+            height: 80px;
+            background-color: #eef5ff;
+            color: #0d6efd;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 35px;
+            margin: 0 auto 20px auto;
+        }
+
+        .final-call-circle {
+            width: 100px;
+            height: 100px;
+            background-color: #25d366;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+            margin: 0 auto 20px auto;
+            text-decoration: none;
+            transition: transform 0.3s;
+            box-shadow: 0 5px 15px rgba(37, 211, 102, 0.4);
+        }
+        
+        .final-call-circle:hover {
+            transform: scale(1.1);
+            color: white;
         }
     </style>
-</head>
-
-<body>
-
-
-
-
-<!-- Google Tag Manager (noscript) -->
+</head><body>  
+   
+   <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NZ5R7F25"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-
-    <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+   <!-- Spinner Start -->    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>    </div>    <!-- Spinner End -->        <!-- Navbar Start -->    <div class="container-fluid bg-white sticky-top">        <div class="container">            <nav class="navbar navbar-expand-lg bg-white navbar-light py-2 py-lg-0">                <a href="index.html" class="navbar-brand">                    <img class="img-fluid" src="img/logo3.png" alt="Logo">                </a>                <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">                    <span class="navbar-toggler-icon"></span>                </button>                <div class="collapse navbar-collapse" id="navbarCollapse">                    <div class="navbar-nav ms-auto">                        <a href="index.html" class="nav-item nav-link active">الرئيسية</a>                        <a href="#about" class="nav-item nav-link">عن الشركة</a>                        <a href="product.html" class="nav-item nav-link">خدماتنا</a>                        <a href="contact.html" class="nav-item nav-link">اتصل بنا</a>                    </div>                    <div class="border-start ps-4 d-none d-lg-block">                        <button type="button" class="btn btn-sm p-0"><i class="fa fa-search"></i></button>                    </div>                </div>            </nav>        </div>    </div>    <!-- Navbar End -->    <!-- Carousel Start -->    <div class="container-fluid px-0 mb-5">        <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">            <div class="carousel-inner">                <div class="carousel-item active">                    <img class="w-100" src="img/White Dark Blue And Green Modern Moving Service Instagram Post.jpg" alt="Image">                    <div class="carousel-caption">                        <div class="container">                            <div class="row justify-content-center">                            </div>                        </div>                    </div>                </div>                <div class="carousel-item">                    <img class="w-100" src="img/Orange And Black Modern Truck Rental Moving House Instagram Post.jpg" alt="Image">                </div>            </div>            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"                data-bs-slide="prev">                <span class="carousel-control-prev-icon" aria-hidden="true"></span>                <span class="visually-hidden">Previous</span>            </button>            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"                data-bs-slide="next">                <span class="carousel-control-next-icon" aria-hidden="true"></span>                <span class="visually-hidden">Next</span>            </button>        </div>    </div>    <!-- Carousel End -->    <!-- About Start -->    <div class="container-xxl py-5">        <div class="container">            <div class="row g-5">                <div class="col-lg-6">                    <div class="row g-3">                        <div class="col-6 text-end">                            <img class="img-fluid bg-white w-100 mb-3 wow fadeIn" data-wow-delay="0.1s" src="img/about-1.jpg" alt="">                            <img class="img-fluid bg-white w-50 wow fadeIn" data-wow-delay="0.2s" src="img/about-3.jpg" alt="">                        </div>                        <div class="col-6">                            <img class="img-fluid bg-white w-50 mb-3 wow fadeIn" data-wow-delay="0.3s" src="img/about-4.jpg" alt="">                            <img class="img-fluid bg-white w-100 wow fadeIn" data-wow-delay="0.4s" src="img/about-2.jpg" alt="">                        </div>                    </div>                </div><div style="text-align:center" class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+    <div class="section-title">
+        <p class="fs-5 fw-medium fst-italic text-primary">خدمات نقل العفش المميزة</p>
+        <h1 class="display-6">نقل عفش شامل بخصم 30% مع ضمان عدم التلفيات!</h1>
     </div>
-    <!-- Spinner End -->
-
-    
-    <!-- Navbar Start -->
-    <div class="container-fluid bg-white sticky-top">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg bg-white navbar-light py-2 py-lg-0">
-                <a href="index.html" class="navbar-brand">
-                    <img class="img-fluid" src="img/logo3.png" alt="Logo">
-                </a>
-                <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav ms-auto">
-                        <a href="index.html" class="nav-item nav-link active">الرئيسية</a>
-                        <a href="#about" class="nav-item nav-link">عن الشركة</a>
-                        <a href="product.html" class="nav-item nav-link">خدماتنا</a>
-                        <a href="contact.html" class="nav-item nav-link">اتصل بنا</a>
-                    </div>
-                    <div class="border-start ps-4 d-none d-lg-block">
-                        <button type="button" class="btn btn-sm p-0"><i class="fa fa-search"></i></button>
-                    </div>
-                </div>
-            </nav>
+    <div class="row g-3 mb-4">
+        <div class="col-sm-4">
+            <img class="img-fluid bg-white w-100" src="img/Blue & Yellow Minimal Moving Services Instagram Post Template.jpg" alt="نقل عفش محترف">
+        </div>
+        <div class="col-sm-8">
+            <h5>نقل العفش بأمان مع أفضل شركة متخصصة</h5>
+            <p class="mb-0">
+                احصل على خدمة نقل عفش كاملة مع تغليف احترافي وونش مجاني! نقدم حلولاً شاملة لنقل الأثاث بأسعار تنافسية وخصم 30% للعملاء الجدد. فريقنا المدرب يستخدم أحدث المعدات لضمان نقل آمن بدون أي تلفيات. خدماتنا متاحة 24 ساعة مع التزام تام بالمواعيد.
+            </p>
         </div>
     </div>
-    <!-- Navbar End -->
+    <div class="border-top mb-4"></div>
+    <div class="row g-3">
+        <div class="col-sm-4">
+            <img class="img-fluid bg-white w-100" src="img/Purple & Yellow Minimalist Moving Services Instagram Post Template.jpg" alt="فريق نقل محترف">
+        </div>
+        <div class="col-sm-8">
+            <h5>مميزات خدمتنا: سرعة · أمان · ضمان</h5>
+            <p class="mb-0">
+                • ونش هيدروليكي مجاني مع كل نقل<br>
+                • خصم 35% على خدمات التغليف الاحترافي<br>
+                • فريق فك وتركيب مدرب بخبرة 15 عامًا<br>
+                • تأمين شامل ضد التلفيات<br>
+                • أسطول سيارات مغلقة مجهزة بأحدث التقنيات<br>
+                • خدمة 24 ساعة طوال أيام الأسبوع
+            </p>
+        </div>
+    </div>
+</div>
 
-
-    <!-- Carousel Start -->
-    <div class="container-fluid px-0 mb-5">
-        <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="w-100" src="img/White%20Dark%20Blue%20And%20Green%20Modern%20Moving%20Service%20Instagram%20Post.jpg" alt="Image">
-                    <div class="carousel-caption">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                            </div>
-                        </div>
-                    </div>
+<!-- Services Section -->
+<div id="about" class="container-fluid product py-5 my-5">
+    <div class="container py-5">
+        <div class="section-title text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+            <p class="fs-5 fw-medium fst-italic text-primary">عروض مميزة محدودة الوقت</p>
+            <h1 class="display-6">احجز الآن واحصل على خصم 30% مع خدمة نقل في نفس اليوم!</h1>
+        </div>
+        <div class="owl-carousel product-carousel wow fadeInUp" data-wow-delay="0.5s">
+            <a href="tel:01004582948" class="d-block product-item rounded">
+                <img src="img/product-1.jpg" alt="تغليف احترافي">
+                <div class="bg-white shadow-sm text-center p-4 position-relative mt-n5 mx-4">
+                    <h4 class="text-primary">تغليف متكامل ضد الكسر</h4>
+                    <span class="text-body">خدمات التغليف الاحترافي بخصم 35% - مواد عالية الجودة تضمن حماية تامة لكل القطع</span>
                 </div>
-                <div class="carousel-item">
-                    <img class="w-100" src="img/Orange%20And%20Black%20Modern%20Truck%20Rental%20Moving%20House%20Instagram%20Post.jpg" alt="Image">
+            </a>
+            <a href="tel:01004582948" class="d-block product-item rounded">
+                <img src="img/product-2.jpg" alt="ونش هيدروليكي">
+                <div class="bg-white shadow-sm text-center p-4 position-relative mt-n5 mx-4">
+                    <h4 class="text-primary">ونش مجاني لرفع العفش</h4>
+                    <span class="text-body">خدمة الونش الهيدروليكي المجانية مع كل عملية نقل - لا داعي للمجهود البدني</span>
+                </div>
+            </a>
+            <a href="tel:01004582948" class="d-block product-item rounded">
+                <img src="img/product-3.jpg" alt="سيارات نقل مغلقة">
+                <div class="bg-white shadow-sm text-center p-4 position-relative mt-n5 mx-4">
+                    <h4 class="text-primary">نقل آمن في سيارات مغلقة</h4>
+                    <span class="text-body">أسطول سيارات حديثة مغلقة - حماية مثالية من العوامل الجوية خلال النقل</span>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- Why Choose Us -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="section-title text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+            <h1 class="display-6">لماذا نكون اختيارك الأول؟</h1>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="item position-relative text-center">
+                    <img class="img-fluid" src="img/packing.jpg" alt="خدمة 24 ساعة">
+                    <div class="p-4">
+                        <h4 class="mb-3">خدمة على مدار الساعة</h4>
+                        <p>نحن نعمل 24/7 لاستقبال طلباتك في أي وقت - نقل عفش طارئ في نفس اليوم!</p>
+                        <h4 class="text-primary">01004582948 - 01118350997</h4>
+                    </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-    </div>
-    <!-- Carousel End -->
-
-
-    <!-- About Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-6">
-                    <div class="row g-3">
-                        <div class="col-6 text-end">
-                            <img class="img-fluid bg-white w-100 mb-3 wow fadeIn" data-wow-delay="0.1s" src="img/about-1.jpg" alt="">
-                            <img class="img-fluid bg-white w-50 wow fadeIn" data-wow-delay="0.2s" src="img/about-3.jpg" alt="">
-                        </div>
-                        <div class="col-6">
-                            <img class="img-fluid bg-white w-50 mb-3 wow fadeIn" data-wow-delay="0.3s" src="img/about-4.jpg" alt="">
-                            <img class="img-fluid bg-white w-100 wow fadeIn" data-wow-delay="0.4s" src="img/about-2.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div style="text-align:center" class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="section-title">
-                        <p class="fs-5 fw-medium fst-italic text-primary">عن الشركة</p>
-                        <h1 class="display-6">خبرة اكتر من 15 عام فى مجال نقل العفش</h1>
-                    </div>
-                    <div class="row g-3 mb-4">
-                        <div class="col-sm-4">
-                            <img class="img-fluid bg-white w-100" src="img/Blue%20%26%20Yellow%20Minimal%20Moving%20Services%20Instagram%20Post%20Template.jpg" alt="">
-                        </div>
-                        <div class="col-sm-8">
-                            <h5>اهلا بك فى شركة امان لنقل العفش لجميع الجهات</h5>
-                            <p class="mb-0">Tتعد شركات نقل العفش من العوامل الحاسمة لتوفير تجربة موثوقة وسلسة للعملاء في مصر. ومع تزايد الطلب على خدمات نقل العفش، يصبح رفع مستوى الاحترافية في هذه الشركات أمرًا حيويًا. يتطلب ذلك التعرف على التحديات التي تواجه هذه الشركات في تحقيق الاحترافية واستكشاف الحلول الممكنة لتحسين أداءها وخدماتها.
-                             </p>
-                        </div>
-                    </div>
-                    <div class="border-top mb-4"></div>
-                    <div class="row g-3">
-					<div class="col-sm-4">
-                            <img class="img-fluid bg-white w-100" src="img/Purple%20%26%20Yellow%20Minimalist%20Moving%20Services%20Instagram%20Post%20Template.jpg" alt="">
-                        </div>
-					
-                        <div class="col-sm-8">
-                            <h5>مميزات شركة امان لنقل العفش: التفوق والجودة في خدمات نقل العفش</h5>
-                            <p class="mb-0">تعتبر شركات نقل العفش المتميزة أساسية لتلبية احتياجات العملاء وضمان تجربة نقل عفش مريحة وآمنة. تتميز هذه الشركات بمجموعة من الخصائص التي تجعلها الاختيار الأمثل لنقل العفش. في هذا المقال، سنستكشف بعض المميزات البارزة لشركة نقل العفش المتميزة وأهمية توفرها للعملاء.
-
-                          </p>
-                        </div>
-                        
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="item position-relative text-center">
+                    <img class="img-fluid" src="img/product-2.jpg" alt="أسعار تنافسية">
+                    <div class="p-4">
+                        <h4 class="mb-3">أفضل الأسعار مع خصم 30%</h4>
+                        <p>عروضنا تتفوق بجودة الخدمة وأسعارنا التنافسية - لا تدفع أكثر من اللازم!</p>
+                        <h4 class="text-primary">ضمان أفضل سعر في السوق</h4>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- About End -->
-
-
-    <!-- Products Start -->
-    <div id="about" class="container-fluid product py-5 my-5">
-        <div class="container py-5">
-            <div class="section-title text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <p class="fs-5 fw-medium fst-italic text-primary">خدماتنا وخصومات مميزة</p>
-                <h1 class="display-6">خصومات هائلة: احصل على خصم فوري يصل إلى 25% على جميع خدمات نقل العفش الخاصة بنا. لا تدع هذه الفرصة تفوتك!</h1>
-            </div>
-            <div class="owl-carousel product-carousel wow fadeInUp" data-wow-delay="0.5s">
-                <a href="" class="d-block product-item rounded">
-                    <img src="img/product-1.jpg" alt="">
-                    <div class="bg-white shadow-sm text-center p-4 position-relative mt-n5 mx-4">
-                        <h4 class="text-primary">فريق محترف لتغليف العفش</h4>
-                        <span class="text-body">يضم فريقنا خبراء مدربين على أعلى مستوى من الاحترافية والدقة لضمان تنفيذ عملية النقل بكل دقة ومهارة</span>
-                    </div>
-                </a>
-                <a href="" class="d-block product-item rounded">
-                    <img src="img/product-2.jpg" alt="">
-                    <div class="bg-white shadow-sm text-center p-4 position-relative mt-n5 mx-4">
-                        <h4 class="text-primary">ونش هيدروليكي متخصص</h4>
-                        <span class="text-body">احمِى نقل عفشك بأمان مع ونش هيدروليكي متخصص إتصل على 01023966940</span>
-                    </div>
-                </a>
-                <a href="" class="d-block product-item rounded">
-                    <img src="img/product-3.jpg" alt="">
-                    <div class="bg-white shadow-sm text-center p-4 position-relative mt-n5 mx-4">
-                        <h4 class="text-primary">سيارات نقل مغلقة لنقل العفش</h4>
-                        <span class="text-body">نحرص على تقديم خدماتنا بدقة عالية وأعلى مستويات الاحترافية. نضمن لكم أن العمل سيتم بأدق التفاصيل وبأحدث الأدوات والتقنيات 01023966940 - </span>
-                    </div>
-                </a>
-                <a href="" class="d-block product-item rounded">
-                    <img src="img/product-4.jpg" alt="">
-                    <div class="bg-white shadow-sm text-center p-4 position-relative mt-n5 mx-4">
-                        <h4 class="text-primary"> 01023966940 نجاريين لفك وتركيب الغرف</h4>
-                        <span class="text-body">نحن فخورون بأن نقدم لكم خدمات نجّارية عالية الجودة تستند إلى سنوات  من الخبرة في هذا المجال</span>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
-    <!-- Products End -->
-
-
-    <!-- Article Start -->
+	
+	    <!-- Article Start -->
     <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
-                    <img class="img-fluid" src="img/article.jpg" alt="">
+                    <img class="img-fluid" src="img/article.jpg" alt="فريق نقل العفش المحترف">
                 </div>
                 <div style="text-align:center" class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                     <div class="section-title">
-                        <p class="fs-5 fw-medium fst-italic text-primary">مميزات شركة امان</p>
-                        <h1 class="display-6">أسعار تنافسية:
-                        </h1>
+                        <p class="fs-5 fw-medium fst-italic text-primary">مميزاتنا الفريدة</p>
+                        <h1 class="display-6">نقل عفش مضمون بدون تلفيات بخصم 35%!</h1>
                     </div>
-                    <p class="mb-4">تتمتع خدماتنا بأسعار منافسة ومعقولة تناسب ميزانيتك. نحن نؤمن بأن تحقيق الجودة لا يعني أن تكون الخدمة مكلفة. لدينا سياسة شفافة في التسعير ولا نفاجئ عملائنا بأي تكاليف إضافية غير متوقعة.
-                   </p>
-                    <p class="mb-4">نحرص على تقديم خدماتنا بدقة عالية وأعلى مستويات الاحترافية. نضمن لكم أن العمل سيتم بأدق التفاصيل وبأحدث الأدوات والتقنيات. نحرص أيضًا على اختيار المواد ذات الجودة العالية لضمان متانة وطول عمر الأثاث المثبت.
-
-.</p>
-                    <a href="" class="btn btn-primary rounded-pill py-3 px-5">اتصل بنا على 01023966940 - 01023966940 - </a>
+                    <p class="mb-4">
+                        <strong>لماذا نختلف عن الآخرين؟</strong><br>
+                        • ضمان عدم التلفيات بنسبة 100%<br>
+                        • أسطول سيارات مجهز بأحدث أنظمة التثبيت<br>
+                        • فريق فك وتركيب معتمد بخبرة 15 عامًا<br>
+                        • تغليف ثلاثي الطبقات للقطع الحساسة<br>
+                        • تقارير صورية قبل وبعد النقل
+                    </p>
+                    <p class="mb-4">
+                        احصل على خدمتنا الاستثنائية الآن:<br>
+                        - خصم 30% على خدمات النقل السريع<br>
+                        - خصم 35% على حزم التغليف الكامل<br>
+                        - خدمة ونش هيدروليكي مجاني بقيمة 500 جنيه<br>
+                        - تأمين مجاني ضد الكسر أو الضياع
+                    </p>
+                    <a href="tel:01004582948" class="btn btn-primary rounded-pill py-3 px-2">احجز الآن واحصل على خصم 30% <i class="fa fa-arrow-left ms-2"></i></a>
                 </div>
             </div>
         </div>
     </div>
     <!-- Article End -->
-
 
     <!-- Video Start -->
     <div class="container-fluid video my-5">
@@ -301,11 +248,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="row g-0">
                 <div dir="rtl" class="col-lg-6 py-5 wow fadeIn" data-wow-delay="0.1s">
                     <div class="py-5">
-                        <h1 class="display-6 mb-4">شركة <span class="text-white">امان</span> لنقل وتغليف <span class="text-white">العفش</span></h1>
-                        <h5 class="fw-normal lh-base fst-italic text-white mb-5">اذا كان لديك الرغبة و الشغف للانتقال من سكنك امان به حاليا الى سكن جديد شركة امان لنقل الاثاث تقدم لكم عروض مختلفة و متنوعة بغرض تقديم المساعدة و تقديم خدمة بجودة عالية و باسعار مقبولة سوف توفر لك شركة امان الاليات الحديثة و سيارات نقل مغلقة بصندوق كبير الحجم و بالتأكيد سوف نوفر لك أيدى عاملة مدربة بدقه على حمل و إنزال الموبيليا بدون ضرر
-</h5>
-                        
-                        <a class="btn btn-light rounded-pill py-3 px-5" href="">إتصل على 01023966940 - 01023966940 - </a>
+                        <h1 class="display-6 mb-4">نقل العفش في نفس اليوم! <span class="text-white">بخصم 30%</span></h1>
+                        <h5 class="fw-normal lh-base fst-italic text-white mb-5">
+                            • خدمة نقل فورية خلال 4 ساعات فقط<br>
+                            • أسعار تبدأ من 499 جنيه للشقة الكاملة<br>
+                            • تغليف مجاني لجميع القطع<br>
+                            • متاح 24 ساعة طوال الأسبوع<br>
+                            • تقييم مجاني عبر الهاتف قبل الحجز
+                        </h5>
+                        <a href="tel:01004582948" class="btn btn-light rounded-pill py-3 px-2">اتصل الآن للاستفادة بالعرض <i class="fa fa-phone ms-2"></i></a>
                     </div>
                 </div>
             </div>
@@ -313,116 +264,30 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
     <!-- Video End -->
 
-
-    <!-- Video Modal Start -->
-    <div class="modal modal-video fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content rounded-0">
-                <div class="modal-header">
-                    <h3 class="modal-title" id="exampleModalLabel">Youtube Video</h3>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <!-- 16:9 aspect ratio -->
-                    <div class="ratio ratio-16x9">
-                        <iframe class="embed-responsive-item" src="" id="video" allowfullscreen="" allowscriptaccess="always" allow="autoplay"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Video Modal End -->
-
-
     <!-- Store Start -->
     <div class="container-xxl py-5">
         <div class="container">
             <div class="section-title text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                
-                <h1 class="display-6">لماذا تختار شركة امان</h1>
+                <h1 class="display-6">أدواتنا وخدماتنا الاحترافية</h1>
             </div>
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="store-item position-relative text-center">
-                        <img class="img-fluid" src="img/store-product-1.jpg" alt="">
+                    <div class="item position-relative text-center">
+                        <img class="img-fluid" src="img/product-1.jpg" alt="تغليف احترافي للعفش">
                         <div class="p-4">
-                            <div class="text-center mb-3">
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                            </div>
-                            <h4 class="mb-3">اقوى خامات التغليف</h4>
-                            <p>أعلى جودة في خامات تغليف العفش: تأمين وحماية فائقة لأثاثك الثمين</p>
-                            <h4 class="text-primary">إتصل على 01023966940 - 01023966940 - </h4>
-                        </div>
-                        <div class="store-overlay">
-                            <a href="tel:01023966940" class="btn btn-dark rounded-pill py-2 px-4 m-2">إتصل الان<i class="fa fa-phone ms-2"></i></a>
+                            <h4 class="mb-3">حزم التغليف المتكاملة</h4>
+                            <p>• فقاعات هوائية عالية الكثافة<br>• صناديق خشبية للقطع الثمينة<br>• أغلفة مضادة للخدوش</p>
+                            <h4 class="text-primary">خصم 35% على التغليف الكامل</h4>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="store-item position-relative text-center">
-                        <img class="img-fluid" src="img/18528018_860464087434664_4382392069594181775_n.jpg" alt="">
+                    <div class="item position-relative text-center">
+                        <img class="img-fluid" src="img/product-2.jpg" alt="ونش هيدروليكي لنقل العفش">
                         <div class="p-4">
-                            <div class="text-center mb-3">
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                            </div>
-                            <h4 class="mb-3">عمالة مهنية لنقل العفش</h4>
-                            <p>عمالة مهنية ومحترفة لنقل العفش: الأمان والكفاءة في التنقل</p>
-                            <h4 class="text-primary">إتصل على 01023966940 - 01023966940 - </h4>
-                        </div>
-                        <div class="store-overlay">
-						<a href="tel:01023966940" class="btn btn-dark rounded-pill py-2 px-4 m-2">إتصل الان<i class="fa fa-phone ms-2"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="store-item position-relative text-center">
-                        <img class="img-fluid" src="img/164345221_3939913116067105_5100557662519613549_n.jpg" alt="">
-                        <div class="p-4">
-                            <div class="text-center mb-3">
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                            </div>
-                            <h4 class="mb-3">معدات حديثة لنقل العفش</h4>
-                            <p>الوقت والجهد: يوفر العمال المهنيون لك الوقت والجهد، حيث يقومون بالعمل بكفاءة وفاعلية، مما يساعدك على الانتقال بسرعة ويسر.
-
-</p>
-                            <h4 class="text-primary">إتصل على 01023966940 - 01023966940 - </h4>
-                        </div>
-                        <div class="store-overlay">
-						<a href="tel:01023966940" class="btn btn-dark rounded-pill py-2 px-4 m-2">إتصل الان<i class="fa fa-phone ms-2"></i></a>
-                        </div>
-                    </div>
-                </div>
-				 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="store-item position-relative text-center">
-                        <img class="img-fluid" src="img/158898707_3399457056824771_4472752526008109004_o.jpg" alt="">
-                        <div class="p-4">
-                            <div class="text-center mb-3">
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                            </div>
-                            <h4 class="mb-3">التزام ودقة المواعيد</h4>
-                            <p>التأمين والضمان: في حالة حدوث أي ضرر أو فقدان للعفش أثناء النقل، يكون لدى العمال المهنيين التأمين اللازم لتغطية تلك الخسائر، مما يمنحك راحة البال.
-
-</p>
-                            <h4 class="text-primary">إتصل على 01023966940 - 01023966940 - </h4>
-                        </div>
-                        <div class="store-overlay">
-						<a href="tel:01023966940" class="btn btn-dark rounded-pill py-2 px-4 m-2">إتصل الان<i class="fa fa-phone ms-2"></i></a>
+                            <h4 class="mb-3">الونش المجاني المتكامل</h4>
+                            <p>• رفع آمن حتى الطابق 15<br>• تحميل وتنزيل بدون مجهود<br>• خدمة مجانية مع كل نقل</p>
+                            <h4 class="text-primary">وفر حتى 500 جنيه مع كل خدمة</h4>
                         </div>
                     </div>
                 </div>
@@ -431,203 +296,147 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
     <!-- Store End -->
 
-
     <!-- Testimonial Start -->
     <div class="container-fluid testimonial py-5 my-5">
         <div class="container py-5">
-            <div class="section-title text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                
-                <h1 class="display-6">إتصل على 01023966940 - 01023966940 - </h1>
+            <div class="section-title text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 700px;">
+                <h1 class="display-6">آراء عملائنا</h1>
+                <div class="testimonial-item text-center">
+                    <p class="fs-5 fst-italic text-dark mb-4">"أفضل تجربة نقل عفش - تم الانتهاء في 3 ساعات فقط مع تغليف ممتاز وخصم 35%. أنصح الجميع بهذه الخدمة!"</p>
+                    <h5 class="mb-1">محمد أحمد</h5>
+                    <span>عميل سابق</span>
+                </div>
             </div>
-         
         </div>
     </div>
     <!-- Testimonial End -->
-
 
     <!-- Contact Start -->
     <div class="container-xxl contact py-5">
         <div class="container">
             <div class="section-title text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <p class="fs-5 fw-medium fst-italic text-primary">تواصل معنا</p>
-                <h1 class="display-6">إتصل على 01023966940 - 01023966940 - </h1>
+                <p class="fs-5 fw-medium fst-italic text-primary">للحجز والاستفسارات</p>
+                <h1 class="display-6">احصل على خصم 30% عند الحجز الآن!</h1>
             </div>
             <div class="row justify-content-center wow fadeInUp" data-wow-delay="0.1s">
                 <div class="col-lg-8">
-                    <p class="text-center mb-5">في الختام، يُعَدُّ الاعتماد على عمالة مهنية لنقل العفش خيارًا ذكيًا لضمان نجاح عملية الانتقال وحماية الأثاث والممتلكات. إذا كنت تفكر في التنقل قريبًا، فتأكد من اختيار خدمة نقل عفش موثوقة وذات سمعة جيدة لضمان سلامة ممتلكاتك وراحة بالك النفسية خلال هذه العملية.
-</p>
-                    <div class="row g-5">
-                     
-                        <div class="col-md-4 text-center wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="row g-5 text-center">
+                        <div class="col-md-6">
                             <div class="btn-square mx-auto mb-3">
-                                <i class="fa fa-phone fa-2x text-white"></i>
+                                <i class="fa fa-clock fa-2x text-primary"></i>
                             </div>
-                            <p class="mb-2">01023966940</p>
-                            <p class="mb-0">01023966940 - </p>
+                            <p class="mb-2">مواعيد العمل:</p>
+                            <p class="mb-0">24 ساعة - 7 أيام</p>
                         </div>
-                        <div class="col-md-4 text-center wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="col-md-6">
                             <div class="btn-square mx-auto mb-3">
-                                <i class="fa fa-map-marker-alt fa-2x text-white"></i>
+                                <i class="fa fa-phone fa-2x text-primary"></i>
                             </div>
-                            <p class="mb-2">نقل العفش</p>
-                            <p class="mb-0">الى جميع مناطق مصر</p>
+                            <p class="mb-2">اتصل الآن:</p>
+                            <p class="mb-0">01004582948 - 01118350997</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Contact Start -->
-
+    <!-- Contact End -->
 
     <!-- Footer Start -->
     <div dir="rtl" class="container-fluid bg-dark footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-primary mb-4">خدمة 24 ساعة</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>نخدم جميع مناطق مصر</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt text-primary me-3"></i>إتصل على 01023966940 - 01023966940 - </p>
-                    <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i>نعمل طوال ايام الاسبوع وفى العطلات الرسمية </p>
-                    <div class="d-flex pt-3">
-                        <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i class="fab fa-linkedin-in"></i></a>
-                    </div>
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-primary mb-4">روابط سريعة</h4>
+                    <a class="btn btn-link" href="#about">خدماتنا</a>
+                    <a class="btn btn-link" href="#contact">اتصل بنا</a>
+                    <a class="btn btn-link" href="#">الشروط والأحكام</a>
                 </div>
-            
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-primary mb-4">معلومات الاتصال</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>خدماتنا متاحة في جميع أنحاء مصر</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>01004582948</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i></p>
+                </div>
             </div>
         </div>
     </div>
     <!-- Footer End -->
+	
+</div>            </div>                       </div>        </div>    </div>    <!-- Copyright End -->    
+    
+    <!-- Floating Call Button -->
+    <div class="floating-call-btn" data-bs-toggle="modal" data-bs-target="#callModal" onclick="resetCallModal()">
+        <i class="fa fa-phone-alt"></i>
+    </div>
 
-
-    <!-- Copyright Start -->
-    <div class="container-fluid copyright py-4">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="fw-medium" href="tel:01023966940">شركة امان لنقل العفش</a>, جميع الحقوق محفوظة.
+    <!-- Call Filter Modal -->
+    <div class="modal fade" id="callModal" tabindex="-1" aria-labelledby="callModalLabel" aria-hidden="true" dir="rtl">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="margin: 0;"></button>
+                    <h5 class="modal-title w-100 text-center text-primary fw-bold" id="callModalLabel">خدمة العملاء</h5>
                 </div>
-                <div class="col-md-6 text-center text-md-end">
-                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                    تم التصميم <a class="fw-medium" href="tel:01024888950">كود هاوس للبرمجة</a>
+                <div class="modal-body pb-5 pt-2">
+                    <!-- Step 1: Intent -->
+                    <div id="step1" class="step-content active">
+                        <div class="step-icon-circle">
+                            <i class="fa fa-truck-moving"></i>
+                        </div>
+                        <h4 class="mb-3">هل تبحث عن خدمة نقل عفش؟</h4>
+                        <p class="text-muted mb-4">نحن نقدم أفضل خدمات النقل والفك والتركيب.</p>
+                        <div class="d-grid gap-2 col-10 mx-auto">
+                            <button class="btn btn-primary btn-lg rounded-pill" onclick="goToStep(2)">نعم، أبحث عن خدمة نقل</button>
+                            <button class="btn btn-outline-secondary rounded-pill" data-bs-dismiss="modal">لا، شكراً</button>
+                        </div>
+                    </div>
+
+                    <!-- Step 2: Seriousness/Urgency -->
+                    <div id="step2" class="step-content">
+                        <div class="step-icon-circle">
+                            <i class="fa fa-user-clock"></i>
+                        </div>
+                        <h4 class="mb-3">هل ترغب في التحدث مع أحد ممثلينا الآن؟</h4>
+                        <p class="text-muted mb-4">سيقوم فريقنا بالرد عليك فوراً لتقديم عرض سعر.</p>
+                        <div class="d-grid gap-2 col-10 mx-auto">
+                            <button class="btn btn-primary btn-lg rounded-pill" onclick="goToStep(3)">نعم، اتصل بي بممثل الخدمة</button>
+                            <button class="btn btn-outline-secondary rounded-pill" onclick="goToStep(1)">رجوع</button>
+                        </div>
+                    </div>
+
+                    <!-- Step 3: Call Action (GTM Compliant) -->
+                    <div id="step3" class="step-content">
+                        <h4 class="mb-4 text-primary">اضغط على الزر للاتصال</h4>
+                        
+                        <!-- This link satisfies GTM "Click URL contains tel:" -->
+                        <a href="tel:01034801331" class="final-call-circle">
+                            <i class="fa fa-phone-alt"></i>
+                        </a>
+                        
+                        <h3 class="mb-3" dir="ltr">01034801331</h3>
+                        <p class="text-success small fw-bold"><i class="fa fa-circle me-1"></i> متاح الآن لاستقبال مكالمتك</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Copyright End -->
-
-    <!-- Offer Banner HTML Start -->
-    <div id="offer-banner" class="offer-banner">
-        <p>
-            عرض خاص! خصم 27% لفترة محدودة! ينتهي خلال: <span id="countdown">02:00:00</span>. 
-            <a href="tel:01023966940">اتصل الآن!</a>
-        </p>
-        <button id="close-banner" class="offer-banner-close">&times;</button>
-    </div>
-    <!-- Offer Banner HTML End -->
-
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
-
-
-
-    <!-- JavaScript Libraries -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
-
-    <!-- Offer Banner Script -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>    <!-- JavaScript Libraries -->    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>    <script src="lib/wow/wow.min.js"></script>    <script src="lib/easing/easing.min.js"></script>    <script src="lib/waypoints/waypoints.min.js"></script>    <script src="lib/owlcarousel/owl.carousel.min.js"></script>    <!-- Template Javascript -->    <script src="js/main.js"></script>
+    
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const banner = document.getElementById('offer-banner');
-            const closeButton = document.getElementById('close-banner');
-            const countdownElement = document.getElementById('countdown');
+        // Modal Step Logic
+        function goToStep(stepNumber) {
+            // Hide all steps
+            document.querySelectorAll('.step-content').forEach(el => el.classList.remove('active'));
+            // Show requested step
+            document.getElementById('step' + stepNumber).classList.add('active');
+        }
 
-            const offerDuration = 2 * 60 * 60 * 1000; // 2 hours in milliseconds
-
-            // Function to hide the banner
-            const hideBanner = () => {
-                banner.classList.remove('show');
-            };
-
-            // Function to close and remember
-            const closeBanner = () => {
-                hideBanner();
-                try {
-                    localStorage.setItem('offerBannerClosed', 'true');
-                } catch (e) {
-                    console.error('localStorage is not available:', e);
-                }
-            };
-
-            // Event listener for the close button
-            closeButton.addEventListener('click', closeBanner);
-
-            // Check if the banner was already closed by the user
-            try {
-                if (localStorage.getItem('offerBannerClosed') === 'true') {
-                    return; // Don't show the banner at all
-                }
-            } catch (e) {
-                 console.error('localStorage is not available:', e);
-            }
-
-            // Show the banner
-            banner.style.display = 'block';
-            setTimeout(() => {
-                 banner.classList.add('show');
-            }, 100);
-
-
-            let offerEndTime;
-            try {
-                 offerEndTime = localStorage.getItem('offerEndTime');
-            } catch(e) {
-                 console.error('localStorage is not available:', e);
-            }
-
-            if (!offerEndTime) {
-                offerEndTime = Date.now() + offerDuration;
-                try {
-                    localStorage.setItem('offerEndTime', offerEndTime);
-                } catch(e) {
-                    console.error('localStorage is not available:', e);
-                }
-            }
-
-            const countdownInterval = setInterval(() => {
-                const now = Date.now();
-                const timeLeft = offerEndTime - now;
-
-                if (timeLeft <= 0) {
-                    clearInterval(countdownInterval);
-                    hideBanner();
-                    return;
-                }
-
-                const hours = Math.floor(timeLeft / (1000 * 60 * 60));
-                const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
-                const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
-
-                countdownElement.textContent = 
-                    (hours < 10 ? '0' : '') + hours + ':' +
-                    (minutes < 10 ? '0' : '') + minutes + ':' +
-                    (seconds < 10 ? '0' : '') + seconds;
-
-            }, 1000);
-        });
+        function resetCallModal() {
+            // Reset to step 1 when opening modal
+            goToStep(1);
+        }
     </script>
-
-</body>
-
-</html>
+</body></html>
